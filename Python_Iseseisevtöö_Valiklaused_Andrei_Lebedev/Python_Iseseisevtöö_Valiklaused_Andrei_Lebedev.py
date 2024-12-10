@@ -42,6 +42,35 @@
 # except ValueError:
 #     print("Ошибка! Пожалуйста, введите корректные числа.")
 
+# # Ülesanne 3
+
+# def day_of_week(number):
+#     days = {
+#         1: "Понедельник",
+#         2: "Вторник",
+#         3: "Среда",
+#         4: "Четверг",
+#         5: "Пятница",
+#         6: "Суббота",
+#         7: "Воскресенье"
+#     }
+#     return days.get(number, None)
+
+# answer = input("Хотите расшифровать порядковый номер дня недели? (да/нет): ").strip().lower()
+
+# if answer == "да":
+#     try:
+#         number = int(input("Введите число от 1 до 7: "))
+        
+#         if 1 <= number <= 7:
+#             print(f"Это {day_of_week(number)}.")
+#         else:
+#             print("Ошибка! Число должно быть от 1 до 7.")
+#     except ValueError:
+#         print("Ошибка! Пожалуйста, введите корректное число.")
+# else:
+#     print("Хорошо, всего доброго!")
+
 # # Ülesanne 4
 
 # def zodiac_sign(day, month):
